@@ -1,9 +1,9 @@
-package com.dailycodework.dreamshops.service.category;
+package com.dailycodework.E_Commerce.service.category;
 
-import com.dailycodework.dreamshops.exceptions.AlreadyExistsException;
-import com.dailycodework.dreamshops.exceptions.ResourceNotFoundException;
-import com.dailycodework.dreamshops.model.Category;
-import com.dailycodework.dreamshops.repository.CategoryRepository;
+import com.dailycodework.E_Commerce.exceptions.AlreadyExistsException;
+import com.dailycodework.E_Commerce.exceptions.ResourceNotFoundException;
+import com.dailycodework.E_Commerce.model.Category;
+import com.dailycodework.E_Commerce.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

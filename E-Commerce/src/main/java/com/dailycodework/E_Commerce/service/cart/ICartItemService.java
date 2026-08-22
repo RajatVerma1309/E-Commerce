@@ -1,6 +1,6 @@
-package com.dailycodework.dreamshops.service.cart;
+package com.dailycodework.E_Commerce.service.cart;
 
-import com.dailycodework.dreamshops.model.CartItem;
+import com.dailycodework.E_Commerce.model.CartItem;
 
 public interface ICartItemService {
     void addItemToCart(Long cartId, Long productId, int quantity);

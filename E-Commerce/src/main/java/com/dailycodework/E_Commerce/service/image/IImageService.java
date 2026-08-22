@@ -1,7 +1,7 @@
-package com.dailycodework.dreamshops.service.image;
+package com.dailycodework.E_Commerce.service.image;
 
-import com.dailycodework.dreamshops.dto.ImageDto;
-import com.dailycodework.dreamshops.model.Image;
+import com.dailycodework.E_Commerce.dto.ImageDto;
+import com.dailycodework.E_Commerce.model.Image;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

@@ -1,15 +1,15 @@
-package com.dailycodework.dreamshops.service.order;
+package com.dailycodework.E_Commerce.service.order;
 
-import com.dailycodework.dreamshops.dto.OrderDto;
-import com.dailycodework.dreamshops.enums.OrderStatus;
-import com.dailycodework.dreamshops.exceptions.ResourceNotFoundException;
-import com.dailycodework.dreamshops.model.Cart;
-import com.dailycodework.dreamshops.model.Order;
-import com.dailycodework.dreamshops.model.OrderItem;
-import com.dailycodework.dreamshops.model.Product;
-import com.dailycodework.dreamshops.repository.OrderRepository;
-import com.dailycodework.dreamshops.repository.ProductRepository;
-import com.dailycodework.dreamshops.service.cart.CartService;
+import com.dailycodework.E_Commerce.dto.OrderDto;
+import com.dailycodework.E_Commerce.enums.OrderStatus;
+import com.dailycodework.E_Commerce.exceptions.ResourceNotFoundException;
+import com.dailycodework.E_Commerce.model.Cart;
+import com.dailycodework.E_Commerce.model.Order;
+import com.dailycodework.E_Commerce.model.OrderItem;
+import com.dailycodework.E_Commerce.model.Product;
+import com.dailycodework.E_Commerce.repository.OrderRepository;
+import com.dailycodework.E_Commerce.repository.ProductRepository;
+import com.dailycodework.E_Commerce.service.cart.CartService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

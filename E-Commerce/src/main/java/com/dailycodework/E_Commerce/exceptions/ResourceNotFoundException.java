@@ -1,4 +1,4 @@
-package com.dailycodework.dreamshops.exceptions;
+package com.dailycodework.E_Commerce.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {
