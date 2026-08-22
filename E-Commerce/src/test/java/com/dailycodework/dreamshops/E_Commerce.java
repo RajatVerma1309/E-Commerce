@@ -1,4 +1,4 @@
-package com.dailycodework.dreamshops;
+package com.dailycodework.E_Commerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
